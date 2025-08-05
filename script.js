@@ -27,3 +27,6 @@ console.log(clonedStudent);
 
 clonedStudent.graduationYear = 2025;
 console.log(clonedStudent);
+
+const newCourses = ["Math", "Language"];
+const allCourses = [...student.courses, ...newCourses];
