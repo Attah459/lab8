@@ -3,6 +3,15 @@ const student = {
   age: 22,
   enrolled: true,
   courses: ["History", "Biology", "Philosophy"],
+
+
+
+ addCourse: function(newCourse) {
+    this.courses.push(newCourse);
+    console.log(`Course "${newCourse}" added.`);
+  },
+
+
   displayInfo: function () {
     console.log(`Student Name: ${this.name}`);
     console.log(`Student Age: ${this.age}`);
