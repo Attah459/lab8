@@ -11,8 +11,10 @@ const student = {
   }
 };
 
-// ✅ Destructuring name and courses
+
 const { name, courses } = student;
 
 console.log("Name:", name);
 console.log("Courses:", courses);
+
+const scores = [85, 92, 78, 90];
