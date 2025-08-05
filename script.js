@@ -11,7 +11,10 @@ const student = {
     console.log(`Course "${newCourse}" added.`);
   },
 
-
+ totalCourses: function() {
+    return this.courses.length;
+  },
+  
   displayInfo: function () {
     console.log(`Student Name: ${this.name}`);
     console.log(`Student Age: ${this.age}`);
