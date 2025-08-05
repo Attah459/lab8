@@ -14,7 +14,7 @@ const student = {
  totalCourses: function() {
     return this.courses.length;
   },
-  
+
   displayInfo: function () {
     console.log(`Student Name: ${this.name}`);
     console.log(`Student Age: ${this.age}`);
@@ -42,3 +42,10 @@ console.log(clonedStudent);
 
 const newCourses = ["Math", "Language"];
 const allCourses = [...student.courses, ...newCourses];
+
+
+
+//bonus
+const sum = scores.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+const average = sum / scores.length;
+console.log("Average score:", average);
