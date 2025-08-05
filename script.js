@@ -3,7 +3,6 @@ const student = {
   age: 22,
   enrolled: true,
   courses: ["History", "Biology", "Philosophy"],
-
   displayInfo: function () {
     console.log(`Student Name: ${this.name}`);
     console.log(`Student Age: ${this.age}`);
@@ -11,3 +10,9 @@ const student = {
     console.log(`Courses: ${this.courses.join(", ")}`);
   }
 };
+
+// ✅ Destructuring name and courses
+const { name, courses } = student;
+
+console.log("Name:", name);
+console.log("Courses:", courses);
